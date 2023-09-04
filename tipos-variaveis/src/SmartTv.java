@@ -6,10 +6,12 @@
   
     
     public void aumentarVolume(){
+      System.out.println("Aumentando o volume para: " +volume);
       //volume+1
        volume++;
     }
     public void diminuirVolume(){
+      System.out.println("Diminuindo o volume para: " +volume);
       //volume-1
        volume--;
     }
